@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(90deg, navy, purple);
+}
+
+.posts{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts img{
+    width: 20%;
+    margin: 20px;
+}
+
+.posts img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 2px grey;
+}
+
