@@ -82,6 +82,10 @@ div.desc {
   }
 
 @media screen and (max-width: 700px) {
+    .c1{
+        width:auto;
+    }
+    
     .header{
         display: flex;
         flex-direction: column;
