@@ -6,32 +6,31 @@
     background-color: whitesmoke;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-
-.profile {
+.c1 {
     margin: 5px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     float: left;
     width: 300px;
     border-radius: 28px;
     padding: 20px;
     margin: 20px;
     transition: .5s ease-in-out;
-}
-
-div.profile:hover {
-    
+    background-color: azure;
+    width: 85%;
     box-shadow: 0px 0px 40px 1px #777;
 }
 
-div.profile img {
-    width: 100%;
+
+div.c1 img {
+    width: 150px;
     height: auto;
     border-radius: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 div.desc {
@@ -81,3 +80,10 @@ div.desc {
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+@media screen and (max-width: 700px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
