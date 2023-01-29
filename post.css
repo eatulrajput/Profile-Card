@@ -10,7 +10,7 @@
 }
 
 .posts img{
-    width:28px;
+    width:28%;
     margin: 20px;
     cursor: pointer;
     box-shadow: 0px 0px 40px 1px #777;
@@ -38,3 +38,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+  @media screen and (max-width: 700px) {
+    .posts img{
+      width: 100%;
+    }
+}
